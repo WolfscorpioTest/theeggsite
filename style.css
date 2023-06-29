@@ -1,0 +1,8 @@
+h1 {
+    color: lightblue;
+    display:flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
