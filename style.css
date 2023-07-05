@@ -74,13 +74,22 @@
 
 
 .block2 .block2left{
-
-    flex:1;
-    display:flex;
-    flex-wrap: wrap;
+    
+ /*  display: flex;
+   flex-wrap: nowrap;*/
+    width: 50%;
+    margin-left: calc(0.125*100%);
 }
 .block2 .block2right{
-    flex:1;
+    
+    max-width: 25%;
+    height: auto;
+}
+
+.block2 img{
+    max-width: 25%;
+    height: auto;
+
 }
 body {
 
