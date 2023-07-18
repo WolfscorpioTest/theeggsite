@@ -9,6 +9,9 @@
     flex: 1;
     /*margin-right: calc(0.125*100%);*/
     width: 100%;
+    border: 50px;
+    border-color: #1F2937;
+  
 }
 
 .block1 .logo {
@@ -45,7 +48,7 @@
 }
 
 .block2 {
-    width: 100%;
+    width: calc(0.875*100%);
     padding-left: calc(0.125*100%);
     background-color: #1F2937;
  
