@@ -44,6 +44,7 @@
     color: #E5E7EB;
     font-size: 18px;
 }
+button.link { background:#1F2937; border:none; }
 
 .empty {
     width: calc(0.125*100%);
@@ -52,6 +53,7 @@
 .block2 {
     width: calc(100%);
     padding-left: calc(0.125*100%);
+    padding-right: calc(0.125*100%);
     background-color: #1F2937;
    
  
@@ -60,7 +62,7 @@
     
    
     display: inline-block;
-    max-width: calc(0.33*100%);
+    max-width: calc(0.6*100%);
     width: 100%;
     height: auto;
     vertical-align: middle;
@@ -73,8 +75,7 @@
     font-size: 48px;
     font-weight: bold;
    
-    width: 30%
-    
+    width: 80%;
 }
 
 
@@ -86,7 +87,7 @@
  
  
    width: 100;
-   max-width: calc(0.45*100%);
+   max-width: calc(0.7*100%);
 
 }
 
