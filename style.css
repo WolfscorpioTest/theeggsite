@@ -9,8 +9,10 @@
     flex: 1;
     /*margin-right: calc(0.125*100%);*/
     width: 100%;
-    border: 50px;
-    border-color: #1F2937;
+    /*border: 50px;
+    border-color: #1F2937;*/
+    margin: 0px;
+    padding: 0px;
   
 }
 
@@ -100,6 +102,7 @@
 }
 
 body {
-
+    margin: 0px;
+    padding: 0px;
     font-family: "Roboto", sans-serif;
 }
