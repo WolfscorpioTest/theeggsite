@@ -81,6 +81,8 @@ button.link { background:#1F2937; border:none; }
 
 
 
+
+
 .block2 .secondary{
    
     color: #E5E7EB;
@@ -105,6 +107,19 @@ button.link { background:#1F2937; border:none; }
     max-width: calc(0.25*100%);
     margin-left: 10px;
     vertical-align: middle;
+}
+
+.block3 img{
+    display: inline-block;
+    width: 100%;
+    
+    max-width: calc(0.125*100%);
+    aspect-ratio: 1 / 1;
+    height:100%;
+    margin-left: 10px;
+    vertical-align: middle;
+    border-radius: 15px;
+    border: 5px solid  #1a75ff;
 }
 
 .block2 .button{
