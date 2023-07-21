@@ -108,20 +108,39 @@ button.link { background:#1F2937; border:none; }
     margin-left: 10px;
     vertical-align: middle;
 }
-
+.block3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.block3 .block3gallery {
+    display: grid;
+    font-weight: normal;
+    font-size: 18px;
+    color: grey;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: calc(0.20*100%);
+    margin-right: calc(0.20*100%);
+    
+}
 .block3 img{
-    display: inline-block;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
     width: 100%;
     
-    max-width: calc(0.125*100%);
+    max-width: calc(0.65*100%);
     aspect-ratio: 1 / 1;
     height:100%;
-    margin-left: 10px;
-    vertical-align: middle;
+    
     border-radius: 15px;
     border: 5px solid  #1a75ff;
 }
+.block3 .subtext{
+    text-align: center;
 
+}
 .block2 .button{
     width: 50px;
 }
