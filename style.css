@@ -216,6 +216,13 @@ button.link { background:#1F2937; border:none; }
     border-radius: 5px;
     vertical-align: 50%;
   }
+  .block6{
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 body {
     margin: 0px;
     padding: 0px;
